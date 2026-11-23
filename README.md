@@ -22,7 +22,7 @@ python scripts/evaluate.py
 python -m pytest -q
 ```
 
-## Artefacts (générés dans artifacts/, non versionnés)
+## Artefacts
 - model.joblib : pipeline entraîné (prétraitement + modèle)
 - metrics.json : accuracy et f1_macro sur le jeu de test
 - confusion_matrix.png : matrice de confusion
